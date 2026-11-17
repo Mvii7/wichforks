@@ -283,9 +283,9 @@ A missing license or a source zip without a source tree matters: ZendNevs declar
 
 | Game | First pick | Also try | Evidence |
 |---|---|---|---|
-| Mario Kart World | SmileyTatsu; Dozer | Djihads80; Orchid (AMD); ZendNevs (release-only, caution) | Smiley build 11/12 recent reports; ZendNevs 56 FPS is self-reported from a 2-commit repo |
+| Mario Kart World | SmileyTatsu | Dozer; Djihads80; Orchid (AMD); ZendNevs (release-only, caution) | Smiley build 11/12 recent reports; ZendNevs 56 FPS is self-reported from a 2-commit repo |
 | Mario Kart World (online) | Droplet + Reservoir | SmileyTatsu for offline | Private NPLN replacement, self-hosted server, emulators only |
-| Donkey Kong Bananza | Selevet perf 3/4 or PokeDinner 2.5; Dozer | ZendNevs (release-only, caution); Lichii | Selevet: 30 cap and 60 smooth on 5700X3D/5070Ti; PokeDinner 2.5: 30 FPS option on 9600X/6800 |
+| Donkey Kong Bananza | Selevet perf 3/4 or PokeDinner 2.5 | Dozer; ZendNevs (release-only, caution); Lichii | Selevet: 30 cap and 60 smooth on 5700X3D/5070Ti; PokeDinner 2.5: 30 FPS option on 9600X/6800 |
 | Pokémon Pokopia | notsapinho | PokeDinner | notsapinho: 120fps mod and 80+ FPS on an RTX 4060 Mobile; PokeDinner for invisible-item and sky fixes |
 | Splatoon Raiders | PokeDinner | Djihads80; notsapinho | PokeDinner textbox, texture and HDR fixes; upstream says variable performance |
 | Splatoon Raiders (online) | Droplet + Reservoir | PokeDinner for offline | Private NPLN replacement; sky bug after beach load |
