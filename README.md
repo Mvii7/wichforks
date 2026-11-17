@@ -21,8 +21,8 @@ The page is ordered by what people ask first: which fork to use, what has been t
 |---|---|---|
 | Windows/Linux, NVIDIA, first install | [**Djihads80/Eglantine**](https://github.com/Djihads80/Eglantine/releases) ★ | The central upstream: most tested, most builds, all-round compatibility |
 | AMD GPU (RDNA2+) | [MythosOfs/Orchid](https://github.com/MythosOfs/Orchid/releases) | Independent fork with AMD-focused shader and GPU fixes; developed on an RX 9070 XT |
-| Mario Kart World above all | [SmileyTatsu/Eglantine](https://github.com/SmileyTatsu/Eglantine/releases) or [Dozer](https://github.com/Mvii7/Dozer/releases) | Recent builds 11/12; 45-50 FPS average and near 60 on AMD docked in independent reports; Dozer: 40-60 FPS on a 5700X3D with dynamic frame rate |
-| Donkey Kong Bananza | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) or [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) or [Dozer](https://github.com/Mvii7/Dozer/releases) | Selevet: 30 FPS cap and 60 smooth motion; PokeDinner 2.5: 30 FPS option on AMD; Dozer: 30-60 FPS on a 5700X3D with dynamic frame rate |
+| Mario Kart World above all | [SmileyTatsu/Eglantine](https://github.com/SmileyTatsu/Eglantine/releases) or [Dozer](https://github.com/Mvii7/Dozer/releases) | Recent builds 11/12; 45-50 FPS average and near 60 on AMD docked in independent reports; Dozer: 40-60 FPS on a 5700X3D and RTX 5070 Ti (driver 621.01) with dynamic frame rate |
+| Donkey Kong Bananza | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) or [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) or [Dozer](https://github.com/Mvii7/Dozer/releases) | Selevet: 30 FPS cap and 60 smooth motion; PokeDinner 2.5: 30 FPS option on AMD; Dozer: 30-60 FPS on a 5700X3D and RTX 5070 Ti (driver 621.01) with dynamic frame rate |
 | Pokémon Pokopia | [notsapinho/Eglantine](https://github.com/notsapinho/Eglantine/releases) or [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Both list Pokopia as a target; notsapinho calls it playable |
 | Splatoon Raiders | [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Textbox, texture and HDR fixes |
 | Online play (MKW, Splatoon Raiders) | [Droplet](https://gitlab.com/seighttt/droplet/-/releases) | Private Reservoir servers for online and LAN; emulators only |
@@ -283,9 +283,9 @@ A missing license or a source zip without a source tree matters: ZendNevs declar
 
 | Game | First pick | Also try | Evidence |
 |---|---|---|---|
-| Mario Kart World | SmileyTatsu | Dozer; Djihads80; Orchid (AMD); ZendNevs (release-only, caution) | Smiley build 11/12 recent reports; Dozer: 40-60 FPS on a 5700X3D with dynamic frame rate; ZendNevs 56 FPS is self-reported from a 2-commit repo |
+| Mario Kart World | SmileyTatsu | Dozer; Djihads80; Orchid (AMD); ZendNevs (release-only, caution) | Smiley build 11/12 recent reports; Dozer: 40-60 FPS on a 5700X3D and RTX 5070 Ti (driver 621.01) with dynamic frame rate; ZendNevs 56 FPS is self-reported from a 2-commit repo |
 | Mario Kart World (online) | Droplet + Reservoir | SmileyTatsu for offline | Private NPLN replacement, self-hosted server, emulators only |
-| Donkey Kong Bananza | Selevet perf 3/4 or PokeDinner 2.5 | Dozer; ZendNevs (release-only, caution); Lichii | Selevet: 30 cap and 60 smooth on 5700X3D/5070Ti; PokeDinner 2.5: 30 FPS option on 9600X/6800; Dozer: 30-60 FPS on a 5700X3D with dynamic frame rate |
+| Donkey Kong Bananza | Selevet perf 3/4 or PokeDinner 2.5 | Dozer; ZendNevs (release-only, caution); Lichii | Selevet: 30 cap and 60 smooth on 5700X3D/5070Ti; PokeDinner 2.5: 30 FPS option on 9600X/6800; Dozer: 30-60 FPS on a 5700X3D and RTX 5070 Ti (driver 621.01) with dynamic frame rate |
 | Pokémon Pokopia | notsapinho | PokeDinner | notsapinho: 120fps mod and 80+ FPS on an RTX 4060 Mobile; PokeDinner for invisible-item and sky fixes |
 | Splatoon Raiders | PokeDinner | Djihads80; notsapinho | PokeDinner textbox, texture and HDR fixes; upstream says variable performance |
 | Splatoon Raiders (online) | Droplet + Reservoir | PokeDinner for offline | Private NPLN replacement; sky bug after beach load |
