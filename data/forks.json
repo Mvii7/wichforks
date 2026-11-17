@@ -281,7 +281,7 @@
       "source_in_repo": true,
       "stars_at_check": 1,
       "confidence": "documented",
-      "notes": "Derived from PokeDinner-Eglantine 2.0.0. Windows zip, Linux AppImage and experimental macOS arm64 zip. Qt menu program plus a CLI, portable mode, GPU-thread and frame-pacing changes behind EDEN_NX2_* switches. AMD is supported per the author, but the README says only NVIDIA (RTX 4060 Ti, RTX 5070 Ti) and a Ryzen 7 5700X were tried; no FPS reports yet. Binaries are unsigned."
+      "notes": "Derived from Anka 1.0.1, which is derived from PokeDinner-Eglantine 2.0.0. Windows zip, Linux AppImage and experimental macOS arm64 zip. Qt menu program plus a CLI, portable mode, GPU-thread and frame-pacing changes behind EDEN_NX2_* switches. AMD is supported per the author, but the README says only NVIDIA (RTX 4060 Ti, RTX 5070 Ti) and a Ryzen 7 5700X were tried; no FPS reports yet. Binaries are unsigned."
     }
   ]
 }
