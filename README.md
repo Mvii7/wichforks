@@ -264,7 +264,7 @@ Lower confidence, but relevant depending on hardware:
 |---|---|---|---|
 | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) | Windows/Linux | Zen 3-tuned, PGO + ThinLTO, faster GPU mapping. 121 stars. Build 6 (3 Nov). | Documented |
 | [EddizEge/Anka](https://github.com/EddizEge/Anka/releases) | Windows 10/11 | New DK-focused performance fork. 7 stars, one release; the DK result is a single-PC self-report. | Documented |
-| [Mvii7/Dozer](https://github.com/Mvii7/Dozer/releases) | Windows 10/11 | Tuned for DK Bananza and MKW, with a Qt menu program and frame-pacing switches. v0.1.5 (17 Nov), GPL-3.0. Only NVIDIA tried, no FPS reports yet. | Documented |
+| [Mvii7/Dozer](https://github.com/Mvii7/Dozer/releases) | Windows, Linux, macOS (experimental) | Tuned for DK Bananza and MKW, with a Qt menu program and frame-pacing switches. v0.1.5 (17 Nov), GPL-3.0. NVIDIA and AMD supported; README lists only NVIDIA tested, no FPS reports yet. | Documented |
 | [heydemoura/EglantinePS5](https://github.com/heydemoura/EglantinePS5) | PS5 | Experimental PS5 port. 195 stars. GPL-3.0. Source only, no release assets at check. | Community-reported |
 | [astralbeexd/Eglantine-3060Ti-16GB](https://github.com/astralbeexd/Eglantine-3060Ti-16GB) | Windows | Patch set plus a binary release, not a full source tree. 11 stars. | Unverified |
 
@@ -449,4 +449,4 @@ python -I scripts/reports.py validate
 | 2026-11-06 | Added Anka, a new Windows performance fork, with its self-reported DK result, source audit and caveats. Not a first pick. |
 | 2026-11-07 | Updated Lichii to build 88+ and build 94/95, added the Eglantine OoT and rc1 regressions, and added nxnative for macOS native builds. |
 | 2026-11-07 | Scraped 202 public Lichii compatibility reports into data/lichii-reports.json, with a generated summary page and CI check. |
-| 2026-11-17 | Added Dozer (Mvii7), a Windows fork tuned for DK Bananza and MKW, under other forks and the source audit. Not a first pick. |
+| 2026-11-17 | Added Dozer (Mvii7), a fork tuned for DK Bananza and MKW, under other forks and the source audit. Not a first pick. |
