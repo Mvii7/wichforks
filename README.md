@@ -33,6 +33,7 @@ The page is ordered by what people ask first: which fork to use, what has been t
 | PS5 | [heydemoura/EglantinePS5](https://github.com/heydemoura/EglantinePS5) | Experimental PS5 port of Eglantine |
 | Zen 3 CPU, chasing FPS | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) | PGO + ThinLTO build tuned for Zen 3 |
 | MKW, frame generation, 30 FPS lock | [ZendNevs/Eglantine-ZendNevs](https://github.com/ZendNevs/Eglantine-ZendNevs/releases) | FSR 3 / LSFG, DynamicFPS, 30 FPS lock; release-only repo, so verify the source |
+| DK Bananza or MKW on Windows, Linux or macOS | [Mvii7/Dozer](https://github.com/Mvii7/Dozer/releases) | Tuned for both games; Qt menu program and frame-pacing switches; Linux AppImage and experimental macOS arm64 build |
 
 If you only read one line: install **Djihads80/Eglantine** ★ first. Switch forks only when a specific game or your GPU is broken, and keep the build that worked.
 
@@ -233,6 +234,16 @@ The project measured Donkey Kong Bananza on one PC: Ryzen 7 5700X, 64 GB RAM, RT
 The presets are Recommended, Recommended + Reactive Flushing, Safe and Custom. GPU Mode starts at Fast (Low); use Accurate if a game shows image errors. Frame generation is FSR3 with Off, 2x and Dynamic choices. start-recommended.bat is the main launcher, start-safe.bat is for troubleshooting and other games.
 
 Caveats: one release, 7 stars, one measured game and one PC, and most code and commit messages are AI-assisted under the maintainer's direction. There are no independent reports yet. Treat the DK numbers as a promising self-report, not a verified first pick. The DK pick remains Selevet perf 3/4 or PokeDinner 2.5.
+
+### Dozer (Mvii7): tuned for DK Bananza and MKW
+
+Windows, Linux and experimental macOS arm64 builds. NVIDIA and AMD. GPL-3.0, full source in the repo. Documented.
+
+Dozer is derived from Anka 1.0.1, which is derived from PokeDinner-Eglantine 2.0.0. It is tuned for Donkey Kong Bananza and Mario Kart World; other games may work but are not supported. Latest at check: v0.1.5 (17 Nov 2026) with a Windows zip, a Linux AppImage, an experimental macOS arm64 zip and SHA256SUMS.txt. The builds are unsigned.
+
+It ships a Qt menu program (dozer.exe on Windows) with a Tuning tab, and a CLI with launchers that apply the same settings. It runs in portable mode: settings, keys, firmware and saves stay in its own `user` folder. Most changes sit behind `EDEN_NX2_*` switches, listed in the repo's changelog and `dist/nx2_switches.txt`.
+
+Caveats: a new project with one star and no independent reports yet, so treat it as an untested option for DK Bananza and MKW. The DK pick remains Selevet perf 3/4 or PokeDinner 2.5, and the MKW pick remains SmileyTatsu.
 
 ### nxnative: macOS native port
 
