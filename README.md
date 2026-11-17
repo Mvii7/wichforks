@@ -449,4 +449,4 @@ python -I scripts/reports.py validate
 | 2026-11-06 | Added Anka, a new Windows performance fork, with its self-reported DK result, source audit and caveats. Not a first pick. |
 | 2026-11-07 | Updated Lichii to build 88+ and build 94/95, added the Eglantine OoT and rc1 regressions, and added nxnative for macOS native builds. |
 | 2026-11-07 | Scraped 202 public Lichii compatibility reports into data/lichii-reports.json, with a generated summary page and CI check. |
-| 2026-11-17 | Added Dozer (Mvii7), a fork tuned for DK Bananza and MKW, under other forks and the source audit. Not a first pick. |
+| 2026-11-17 | Added Dozer (Mvii7), a fork tuned for DK Bananza and MKW, under other forks and the source audit. |
