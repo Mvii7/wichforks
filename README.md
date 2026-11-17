@@ -21,8 +21,8 @@ The page is ordered by what people ask first: which fork to use, what has been t
 |---|---|---|
 | Windows/Linux, NVIDIA, first install | [**Djihads80/Eglantine**](https://github.com/Djihads80/Eglantine/releases) ★ | The central upstream: most tested, most builds, all-round compatibility |
 | AMD GPU (RDNA2+) | [MythosOfs/Orchid](https://github.com/MythosOfs/Orchid/releases) | Independent fork with AMD-focused shader and GPU fixes; developed on an RX 9070 XT |
-| Mario Kart World above all | [SmileyTatsu/Eglantine](https://github.com/SmileyTatsu/Eglantine/releases) | Recent builds 11/12; 45-50 FPS average and near 60 on AMD docked in independent reports |
-| Donkey Kong Bananza | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) or [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Selevet: 30 FPS cap and 60 smooth motion; PokeDinner 2.5: 30 FPS option on AMD |
+| Mario Kart World above all | [SmileyTatsu/Eglantine](https://github.com/SmileyTatsu/Eglantine/releases) or [Dozer](https://github.com/Mvii7/Dozer/releases) | Recent builds 11/12; 45-50 FPS average and near 60 on AMD docked in independent reports |
+| Donkey Kong Bananza | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) or [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) or [Dozer](https://github.com/Mvii7/Dozer/releases) | Selevet: 30 FPS cap and 60 smooth motion; PokeDinner 2.5: 30 FPS option on AMD |
 | Pokémon Pokopia | [notsapinho/Eglantine](https://github.com/notsapinho/Eglantine/releases) or [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Both list Pokopia as a target; notsapinho calls it playable |
 | Splatoon Raiders | [PokeDinner](https://git.eden-emu.dev/Franseven/PokeDinner-a-Eglantine-Fork/releases) | Textbox, texture and HDR fixes |
 | Online play (MKW, Splatoon Raiders) | [Droplet](https://gitlab.com/seighttt/droplet/-/releases) | Private Reservoir servers for online and LAN; emulators only |
@@ -33,7 +33,6 @@ The page is ordered by what people ask first: which fork to use, what has been t
 | PS5 | [heydemoura/EglantinePS5](https://github.com/heydemoura/EglantinePS5) | Experimental PS5 port of Eglantine |
 | Zen 3 CPU, chasing FPS | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) | PGO + ThinLTO build tuned for Zen 3 |
 | MKW, frame generation, 30 FPS lock | [ZendNevs/Eglantine-ZendNevs](https://github.com/ZendNevs/Eglantine-ZendNevs/releases) | FSR 3 / LSFG, DynamicFPS, 30 FPS lock; release-only repo, so verify the source |
-| DK Bananza or MKW on Windows, Linux or macOS | [Mvii7/Dozer](https://github.com/Mvii7/Dozer/releases) | Tuned for both games; Qt menu program and frame-pacing switches; Linux AppImage and experimental macOS arm64 build |
 
 If you only read one line: install **Djihads80/Eglantine** ★ first. Switch forks only when a specific game or your GPU is broken, and keep the build that worked.
 
@@ -273,7 +272,6 @@ Lower confidence, but relevant depending on hardware:
 |---|---|---|---|
 | [selevet-eglantine](https://github.com/sylvieistaken/selevet-eglantine/releases) | Windows/Linux | Zen 3-tuned, PGO + ThinLTO, faster GPU mapping. 121 stars. Build 6 (3 Nov). | Documented |
 | [EddizEge/Anka](https://github.com/EddizEge/Anka/releases) | Windows 10/11 | New DK-focused performance fork. 7 stars, one release; the DK result is a single-PC self-report. | Documented |
-| [Mvii7/Dozer](https://github.com/Mvii7/Dozer/releases) | Windows, Linux, macOS (experimental) | Tuned for DK Bananza and MKW, with a Qt menu program and frame-pacing switches. v0.1.5 (17 Nov), GPL-3.0. NVIDIA and AMD supported. | Documented |
 | [heydemoura/EglantinePS5](https://github.com/heydemoura/EglantinePS5) | PS5 | Experimental PS5 port. 195 stars. GPL-3.0. Source only, no release assets at check. | Community-reported |
 | [astralbeexd/Eglantine-3060Ti-16GB](https://github.com/astralbeexd/Eglantine-3060Ti-16GB) | Windows | Patch set plus a binary release, not a full source tree. 11 stars. | Unverified |
 
@@ -285,9 +283,9 @@ A missing license or a source zip without a source tree matters: ZendNevs declar
 
 | Game | First pick | Also try | Evidence |
 |---|---|---|---|
-| Mario Kart World | SmileyTatsu | Djihads80; Orchid (AMD); Dozer; ZendNevs (release-only, caution) | Smiley build 11/12 recent reports; ZendNevs 56 FPS is self-reported from a 2-commit repo |
+| Mario Kart World | SmileyTatsu; Dozer | Djihads80; Orchid (AMD); ZendNevs (release-only, caution) | Smiley build 11/12 recent reports; ZendNevs 56 FPS is self-reported from a 2-commit repo |
 | Mario Kart World (online) | Droplet + Reservoir | SmileyTatsu for offline | Private NPLN replacement, self-hosted server, emulators only |
-| Donkey Kong Bananza | Selevet perf 3/4 or PokeDinner 2.5 | ZendNevs (release-only, caution); Lichii; Dozer | Selevet: 30 cap and 60 smooth on 5700X3D/5070Ti; PokeDinner 2.5: 30 FPS option on 9600X/6800 |
+| Donkey Kong Bananza | Selevet perf 3/4 or PokeDinner 2.5; Dozer | ZendNevs (release-only, caution); Lichii | Selevet: 30 cap and 60 smooth on 5700X3D/5070Ti; PokeDinner 2.5: 30 FPS option on 9600X/6800 |
 | Pokémon Pokopia | notsapinho | PokeDinner | notsapinho: 120fps mod and 80+ FPS on an RTX 4060 Mobile; PokeDinner for invisible-item and sky fixes |
 | Splatoon Raiders | PokeDinner | Djihads80; notsapinho | PokeDinner textbox, texture and HDR fixes; upstream says variable performance |
 | Splatoon Raiders (online) | Droplet + Reservoir | PokeDinner for offline | Private NPLN replacement; sky bug after beach load |
@@ -459,4 +457,4 @@ python -I scripts/reports.py validate
 | 2026-11-06 | Added Anka, a new Windows performance fork, with its self-reported DK result, source audit and caveats. Not a first pick. |
 | 2026-11-07 | Updated Lichii to build 88+ and build 94/95, added the Eglantine OoT and rc1 regressions, and added nxnative for macOS native builds. |
 | 2026-11-07 | Scraped 202 public Lichii compatibility reports into data/lichii-reports.json, with a generated summary page and CI check. |
-| 2026-11-17 | Added Dozer (Mvii7), a fork tuned for DK Bananza and MKW, under other forks and the source audit. |
+| 2026-11-17 | Added Dozer (Mvii7), a fork tuned for DK Bananza and MKW, to the fork picker, forks section, game matrix and source audit. |
