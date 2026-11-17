@@ -243,8 +243,6 @@ Dozer is derived from Anka 1.0.1, which is derived from PokeDinner-Eglantine 2.0
 
 It ships a Qt menu program (dozer.exe on Windows) with a Tuning tab, and a CLI with launchers that apply the same settings. It runs in portable mode: settings, keys, firmware and saves stay in its own `user` folder. Most changes sit behind `EDEN_NX2_*` switches, listed in the repo's changelog and `dist/nx2_switches.txt`.
 
-Caveats: a new project with one star and no independent reports yet, so treat it as an untested option for DK Bananza and MKW. The DK pick remains Selevet perf 3/4 or PokeDinner 2.5, and the MKW pick remains SmileyTatsu.
-
 ### nxnative: macOS native port
 
 macOS 26.6+ on Apple silicon. MIT, source in repo. Not an emulator.
